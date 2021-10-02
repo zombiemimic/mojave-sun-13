@@ -1,7 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /obj/structure/table/ms13/metal,
-/obj/effect/spawner/random/cigbutt,
 /obj/structure/ms13/storage/vent,
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
@@ -355,6 +354,10 @@
 /obj/structure/bed/ms13/mattress/stained,
 /turf/open/floor/wood/ms13/common,
 /area/ms13/supermarket)
+"bb" = (
+/obj/structure/chair/ms13/metal/folding,
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "bd" = (
 /obj/structure/table/ms13/metal,
 /obj/item/assembly/control/airlock,
@@ -683,6 +686,10 @@
 	},
 /turf/open/floor/iron/ms13/metal/plate,
 /area/ms13/town)
+"ch" = (
+/obj/structure/table/ms13/low_wall/brick/gray,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "ci" = (
 /obj/item/cigbutt,
 /obj/machinery/teleport/station{
@@ -710,6 +717,17 @@
 	name =  ROOF SETTER PLACEHOLDER
 	},
 /turf/open/floor/plating/ms13/roof/wood,
+/area/ms13)
+"cl" = (
+/obj/structure/table/ms13/metal/alt,
+/obj/item/restraints/handcuffs{
+	pixel_y = 10
+	},
+/obj/item/restraints/handcuffs{
+	pixel_y = 6
+	},
+/obj/item/restraints/handcuffs,
+/turf/open/floor/iron/ms13/tile/brown,
 /area/ms13)
 "cm" = (
 /obj/item/circlegame{
@@ -1017,7 +1035,7 @@
 /turf/open/floor/iron/ms13/tile/full/navy,
 /area/ms13/town)
 "dh" = (
-/obj/machinery/door/unpowered/ms13/seethrough/metal{
+/obj/machinery/door/unpowered/ms13/seethrough/bar{
 	dir = 4
 	},
 /turf/open/floor/iron/ms13/metal,
@@ -1386,6 +1404,10 @@
 /obj/item/food/ms13/egg/ms13/nightstalker,
 /turf/open/floor/wood/ms13/common,
 /area/ms13/town)
+"ey" = (
+/obj/machinery/vending/cigarette,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "ez" = (
 /obj/structure/bed/ms13/bedframe/metal,
 /obj/effect/landmark/start/ms13/trooper,
@@ -1533,12 +1555,10 @@
 /turf/open/floor/iron/ms13/concrete,
 /area/ms13/town)
 "eT" = (
-/obj/effect/spawner/random/cigbutt,
-/obj/item/circlegame{
-	name =  ROOF SETTER PLACEHOLDER
-	},
-/turf/open/floor/iron/ms13/tile/full/navy,
-/area/ms13/town)
+/mob/living/simple_animal/hostile/ms13/ghoul/frozen,
+/obj/item/storage/belt/holster/ms13,
+/turf/open/floor/plating/ms13/ground/snow,
+/area/ms13)
 "eU" = (
 /obj/item/assembly/igniter{
 	pixel_x = 5;
@@ -1859,6 +1879,12 @@
 /obj/machinery/light/ms13/bulb/broken,
 /turf/open/floor/iron/ms13/metal,
 /area/ms13/underground/tunnel/maintenance)
+"fS" = (
+/obj/structure/chair/office/ms13/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "fU" = (
 /obj/machinery/light/ms13/bulb/broken{
 	dir = 4
@@ -1967,6 +1993,18 @@
 /mob/living/simple_animal/hostile/ms13/tunneler,
 /turf/open/floor/iron/ms13/metal,
 /area/ms13/underground/tunnel/maintenance)
+"go" = (
+/obj/effect/decal/remains/human,
+/obj/item/gun/ballistic/automatic/pistol/ms13/m10mm/military{
+	pixel_x = 10;
+	pixel_y = -10
+	},
+/obj/item/clothing/head/helmet/ms13/military{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "gp" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/circlegame{
@@ -2299,6 +2337,11 @@
 	},
 /turf/open/floor/wood/ms13/mosaic,
 /area/ms13/town)
+"ht" = (
+/obj/structure/closet/crate/ms13/vault_tec/long,
+/obj/effect/spawner/random/ms13/gun/tier3,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "hu" = (
 /obj/structure/table/ms13/wood,
 /obj/item/circlegame{
@@ -2366,6 +2409,10 @@
 	},
 /turf/open/floor/wood/ms13/common,
 /area/ms13/town)
+"hB" = (
+/obj/structure/chair/ms13/metal/broken,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "hC" = (
 /obj/structure/ms13/foundation/mosaic/variantthree{
 	dir = 8
@@ -2801,6 +2848,10 @@
 	},
 /turf/open/floor/wood/ms13/common,
 /area/ms13/town)
+"iQ" = (
+/mob/living/simple_animal/hostile/ms13/robot/protectron/reinforced,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "iR" = (
 /obj/item/ms13_small_flag/usa,
 /obj/item/circlegame{
@@ -3404,6 +3455,14 @@
 	},
 /turf/open/floor/wood/ms13/carpet/green,
 /area/ms13/town)
+"kB" = (
+/obj/item/clothing/suit/armor/ms13/vest/military,
+/obj/item/clothing/head/helmet/ms13/combat,
+/obj/item/clothing/suit/armor/ms13/vest/military,
+/obj/item/clothing/head/helmet/ms13/combat,
+/obj/structure/closet/crate/ms13/vault_tec/pristine,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "kC" = (
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
@@ -4157,6 +4216,13 @@
 	},
 /turf/open/floor/wood/ms13/common,
 /area/ms13/ncr)
+"ne" = (
+/obj/item/clothing/shoes/ms13/military{
+	pixel_x = -7;
+	pixel_y = 15
+	},
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "nf" = (
 /obj/machinery/light/ms13/bulb{
 	dir = 1
@@ -4782,6 +4848,10 @@
 	},
 /turf/open/floor/wood/ms13/common,
 /area/ms13/town)
+"oY" = (
+/mob/living/simple_animal/hostile/ms13/robot/handy/gutsy,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "oZ" = (
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
@@ -5579,6 +5649,10 @@
 	},
 /turf/open/floor/wood/ms13/common,
 /area/ms13/town)
+"rC" = (
+/obj/structure/chair/ms13/metal,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "rD" = (
 /obj/structure/table/ms13/metal,
 /obj/item/circlegame{
@@ -5869,6 +5943,11 @@
 	},
 /turf/open/openspace/ms13,
 /area/ms13/town)
+"st" = (
+/obj/structure/table/ms13/metal,
+/obj/effect/spawner/random/entertainment/lighter,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "su" = (
 /obj/machinery/light/ms13{
 	dir = 8
@@ -6690,6 +6769,11 @@
 	},
 /turf/open/floor/plating/ms13/ground/mountain,
 /area/ms13/underground/tunnel/maintenance)
+"vq" = (
+/obj/structure/table/ms13/metal/alt,
+/obj/effect/spawner/random/ms13/gun/tier2,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "vr" = (
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
@@ -6984,11 +7068,20 @@
 	},
 /turf/closed/wall/ms13/wood,
 /area/ms13)
+"wv" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "ww" = (
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
 	},
 /turf/open/floor/iron/ms13/concrete,
+/area/ms13)
+"wy" = (
+/obj/structure/table/ms13/metal,
+/obj/item/storage/fancy/cigarettes/dromedaryco,
+/turf/open/floor/iron/ms13/tile/brown,
 /area/ms13)
 "wz" = (
 /obj/structure/dresser/ms13/orange,
@@ -6998,6 +7091,12 @@
 	},
 /turf/open/floor/wood/ms13/carpet/shaggy,
 /area/ms13/town)
+"wB" = (
+/obj/machinery/light/ms13/bulb/broken{
+	dir = 8
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "wC" = (
 /obj/structure/bed/ms13/bedframe/metal,
 /obj/structure/bed/ms13/mattress/stale,
@@ -7283,6 +7382,12 @@
 	},
 /turf/open/openspace/ms13,
 /area/ms13/town)
+"xs" = (
+/obj/structure/closet/crate/ms13/vault_tec/compact/pristine,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/effect/spawner/random/ms13/ammo/tier2,
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "xt" = (
 /obj/structure/ms13/foundation/common,
 /turf/open/openspace/ms13,
@@ -7408,6 +7513,13 @@
 	dir = 4
 	},
 /area/ms13/underground/tunnel)
+"xP" = (
+/obj/structure/table/ms13/metal,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "xQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -7611,6 +7723,10 @@
 	},
 /turf/open/floor/iron/ms13/metal,
 /area/ms13/town)
+"yw" = (
+/obj/item/ms13_small_flag/usa,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "yx" = (
 /obj/structure/closet/crate/ms13/footlocker{
 	dir = 1
@@ -7621,6 +7737,12 @@
 /obj/structure/ms13/rug/mat/rubber,
 /turf/open/floor/plating/ms13/roof,
 /area/ms13/town)
+"yz" = (
+/obj/machinery/light/ms13/broken{
+	dir = 4
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "yB" = (
 /obj/structure/toilet{
 	dir = 1
@@ -7910,12 +8032,9 @@
 /turf/open/floor/iron/ms13/concrete/industrial,
 /area/ms13/underground/tunnel/maintenance)
 "zA" = (
-/obj/effect/spawner/random/cigbutt,
-/obj/item/circlegame{
-	name =  ROOF SETTER PLACEHOLDER
-	},
-/turf/open/floor/wood/ms13/common,
-/area/ms13/town)
+/obj/item/cigbutt,
+/turf/open/floor/plating/ms13/ground/snow,
+/area/ms13)
 "zB" = (
 /obj/machinery/light/ms13{
 	dir = 8
@@ -8311,6 +8430,12 @@
 	},
 /turf/open/openspace/ms13,
 /area/ms13/town)
+"AZ" = (
+/obj/structure/table/ms13/low_wall/brick/gray,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude/snow,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "Ba" = (
 /obj/structure/bed/ms13/bedframe/metal,
 /obj/structure/bed/ms13/mattress/dirty,
@@ -8594,6 +8719,18 @@
 	},
 /turf/open/openspace/ms13,
 /area/ms13/underground/tunnel/maintenance)
+"BR" = (
+/obj/structure/table/ms13/metal,
+/obj/machinery/computer/libraryconsole{
+	name = "pretend this is a fallout terminal";
+	pixel_y = 8
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
+"BS" = (
+/obj/structure/table/ms13/metal,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "BU" = (
 /obj/structure/railing{
 	dir = 8
@@ -8767,6 +8904,12 @@
 /obj/item/assembly/mousetrap,
 /turf/open/floor/iron/ms13/metal,
 /area/ms13/underground/tunnel/maintenance)
+"CF" = (
+/obj/structure/closet/crate/ms13/army,
+/obj/effect/spawner/random/ms13/ammo/tier3,
+/obj/effect/spawner/random/ms13/ammo/tier3,
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "CG" = (
 /obj/structure/table/ms13/metal,
 /obj/item/clipboard{
@@ -9020,10 +9163,10 @@
 /turf/open/floor/iron/ms13/metal,
 /area/ms13/underground/tunnel/maintenance)
 "Dy" = (
-/obj/machinery/door/unpowered/ms13/seethrough/metal{
-	dir = 1
+/obj/item/clothing/shoes/ms13/military{
+	pixel_y = 18
 	},
-/turf/open/floor/iron/ms13/metal,
+/turf/open/floor/plating/ms13/ground/snow,
 /area/ms13)
 "DA" = (
 /obj/structure/table/ms13/no_smooth/metal,
@@ -10365,6 +10508,10 @@
 	},
 /turf/open/floor/iron/ms13/metal,
 /area/ms13/underground/tunnel/maintenance)
+"HG" = (
+/obj/machinery/door/unpowered/ms13/seethrough/bar,
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "HH" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/iron/ms13/concrete/industrial/alt,
@@ -10892,7 +11039,6 @@
 /area/ms13)
 "Jo" = (
 /obj/structure/table/ms13/metal,
-/obj/effect/spawner/random/food_packaging,
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
 	},
@@ -11948,6 +12094,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood/ms13/common,
 /area/ms13/supermarket)
+"MJ" = (
+/obj/structure/chair/ms13/metal/unfinished,
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "MK" = (
 /obj/structure/table/ms13/low_wall/wood,
 /obj/item/circlegame{
@@ -12944,6 +13094,12 @@
 	},
 /turf/open/floor/plating,
 /area/ms13/town)
+"Qa" = (
+/obj/machinery/light/ms13/broken{
+	dir = 8
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "Qb" = (
 /obj/structure/bed/ms13/bedframe/wire,
 /obj/structure/bed/ms13/mattress/stale,
@@ -14068,6 +14224,13 @@
 /obj/structure/closet/crate/ms13/footlocker,
 /turf/open/floor/wood/ms13/common,
 /area/ms13/supermarket)
+"Tz" = (
+/obj/structure/table/ms13/metal,
+/obj/item/pen{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "TA" = (
 /obj/item/circlegame{
 	name =  ROOF SETTER PLACEHOLDER
@@ -14299,6 +14462,18 @@
 	},
 /turf/open/floor/wood/ms13/common,
 /area/ms13/town)
+"Uo" = (
+/obj/machinery/light/ms13/bulb{
+	dir = 4
+	},
+/obj/item/ammo_casing/c10mm{
+	dir = 9;
+	pixel_x = -8;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/ms13/metal,
+/area/ms13)
 "Up" = (
 /obj/structure/table/ms13/no_smooth/wood/low,
 /obj/item/circlegame{
@@ -14396,6 +14571,12 @@
 	},
 /turf/open/floor/wood/ms13/carpet/shaggy/green,
 /area/ms13/town)
+"UE" = (
+/obj/machinery/light/ms13{
+	dir = 8
+	},
+/turf/open/floor/iron/ms13/tile/brown,
+/area/ms13)
 "UF" = (
 /obj/structure/bed/ms13/bedframe/wood,
 /obj/structure/bed/ms13/mattress/yellowed,
@@ -32828,7 +33009,7 @@ Xy
 sj
 sj
 sj
-sj
+xs
 Xy
 vR
 vR
@@ -33121,15 +33302,15 @@ PY
 PY
 PY
 PY
-vR
-vR
+eT
+Dy
 vR
 vR
 Bo
-Dy
-sj
-sj
-sj
+Xy
+bb
+go
+ne
 sj
 Xy
 vR
@@ -33423,14 +33604,14 @@ vR
 vR
 vR
 vR
-vR
+zA
 Bo
 Bo
 Bo
 Bo
 Xy
-sj
-sj
+CF
+Uo
 sj
 sj
 Xy
@@ -34033,11 +34214,11 @@ Xy
 pO
 pO
 pO
-Xy
+HG
+wB
 pO
 pO
-pO
-pO
+oY
 Xy
 vR
 vR
@@ -34331,15 +34512,15 @@ vR
 vR
 vR
 Bo
+yt
+MJ
+pO
+pO
 Xy
-pO
-pO
-pO
-Xy
-pO
-pO
-pO
-pO
+ht
+kB
+cl
+vq
 Xy
 vR
 vR
@@ -34633,8 +34814,8 @@ vR
 vR
 vR
 Bo
-Xy
-pO
+yt
+rC
 pO
 pO
 Xy
@@ -34935,14 +35116,14 @@ vR
 vR
 vR
 Bo
-Xy
+AZ
+hB
+iQ
+pO
+Qa
 pO
 pO
-pO
-pO
-pO
-pO
-pO
+UE
 pO
 pO
 Xy
@@ -35241,10 +35422,10 @@ Xy
 pO
 pO
 pO
+BS
+fS
 pO
-pO
-pO
-pO
+wy
 pO
 pO
 Xy
@@ -35540,14 +35721,14 @@ Bo
 Bo
 Bo
 Xy
+wv
 pO
-pO
-pO
-pO
-pO
-pO
-pO
-pO
+yw
+xP
+Tz
+BR
+st
+yw
 pO
 Xy
 vR
@@ -36151,7 +36332,7 @@ pO
 pO
 pO
 pO
-pO
+oY
 pO
 Xy
 vR
@@ -36446,12 +36627,12 @@ Kn
 Kn
 Bo
 Xy
+ey
 pO
 pO
+yz
 pO
-pO
-pO
-pO
+yz
 pO
 pO
 pO
@@ -36750,12 +36931,12 @@ Bo
 Xy
 Xy
 yt
-yt
+AZ
 Xy
 ji
 Xy
 yt
-yt
+ch
 Xy
 Xy
 vR
@@ -69116,7 +69297,7 @@ MP
 PY
 Cj
 WI
-eT
+PC
 KX
 Cj
 Cj
@@ -83850,7 +84031,7 @@ qi
 gA
 vC
 Xq
-zA
+Xq
 KW
 Cj
 LH
